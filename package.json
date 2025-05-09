@@ -2,9 +2,9 @@
   "name": "basic-fantasy-rpg-api",
   "version": "1.0.1",
   "description": "Basic Fantasy RPG API built with NodeJS",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-  "start": "node index.js",
+  "start": "node server.js",
   "test": "echo \"Error: no test specified\" && exit 1"
 },
   "repository": {
