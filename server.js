@@ -140,3 +140,8 @@ restapi.listen(3001, function () {
 });
 
 console.log("Submit GET or POST to http://localhost:3001/");
+
+const PORT = process.env.PORT || 3001; // Gunakan PORT dari env atau fallback ke 3001
+restapi.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
